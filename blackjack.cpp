@@ -154,9 +154,17 @@ int main()
 
 
     //Features to add later
+        //break apart code into functions
+        //break apart file into multiple files and headers
         //ability to hit more cards
         //translate 10's to 10,J,Q,K
         //keep track of which cards are in play
+        //cheating mechanic
+        //card counting tips and mechanics
+        //betting mechanic
+        //promote or demote playing tables, for example nicer casinos with higher limits or getting kicked out to worse casinos or back alleys or jail
+        //ascii graphics
+        //more flavor text
     
  
 }
