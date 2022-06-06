@@ -2,12 +2,14 @@
 #include <string>
 #include <ctime>
 #include <cstdlib>
+
 using std::cout;
 using std::cin;
 using namespace std;
 
 
 //Blackjack game played via text in terminal
+//written by Daniel Rector, 2022
 
 string playerName()
 {
@@ -46,15 +48,13 @@ int main()
     int PlayerCardA = 0;
     int PlayerCardB = 0;
     int PlayerCardC = 0;
-//  int PlayerCardD = 0; commented out as not using for now
-//  int PlayerCardE = 0; commented out as not using for now
+
 
     //Dealer Card Variables
     int DealerCardA = 0;
     int DealerCardB = 0;
     int DealerCardC = 0;
-//  int DealerCardD = 0; commented out as not using for now
-//  int DealerCardE = 0; commented out as not using for now
+
 
     //Dealer's Hand Calculation
     srand(time(0));  // Initialize random number generator.
