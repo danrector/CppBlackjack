@@ -13,7 +13,7 @@ using namespace std;
 
 string playerName()
 {
-    string const playerName;
+    string playerName;
 
     cout << "Please enter your name: ";
     cin >> playerName;
@@ -160,9 +160,9 @@ int main()
     }
 
     return 0;
+}
 
-
-    //Features to add later
+ //Features to add later
         //break apart code into functions
         //break apart file into multiple files and headers
         //ability to hit more cards
@@ -174,6 +174,5 @@ int main()
         //promote or demote playing tables, for example nicer casinos with higher limits or getting kicked out to worse casinos or back alleys or jail
         //ascii graphics
         //more flavor text
-    
- 
-}
+
+        
