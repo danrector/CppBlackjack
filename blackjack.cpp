@@ -9,6 +9,21 @@ using namespace std;
 
 //Blackjack game played via text in terminal
 
+string playerName()
+{
+    string const playerName;
+
+    cout << "Please enter your name: ";
+    cin >> playerName;
+
+    cout << '\n';
+    cout << "Welcome " << playerName << ", good to see you!" << '\n';
+    cout << "Grab an open seat." << '\n';
+    cout << '\n' << '\n';
+
+    return playerName;
+}
+
 int main()
 {
    
@@ -21,15 +36,7 @@ int main()
     cout << '\n' << '\n';
    
     //Grab Player Name
-    cout << "Please enter your name: ";
-
-    string playerName  = "Name";
-    cin >> playerName;
-
-    cout << '\n';
-    cout << "Welcome " << playerName << ", good to see you!" << '\n';
-    cout << "Grab an open seat." << '\n';
-    cout << '\n' << '\n';
+    playerName();
     
     //First Hand
     cout << "Let's Deal!" << '\n';
@@ -151,6 +158,8 @@ int main()
     else {
         cout << "Dealer wins this round, better luck next time, " << playerName << '\n';
     }
+
+    return 0;
 
 
     //Features to add later
